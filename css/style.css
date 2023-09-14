@@ -1,0 +1,220 @@
+
+html {
+    font-size: 10px;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+section {
+    padding: 2rem 9%;
+}
+table, th, td {
+    height: 20px;
+    border:2px solid black;
+    font-size: medium;
+    width: 30%;
+    height: 60%;
+  }
+.heading {
+    font-size: 80px;
+    color: black;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: lowercase;
+}
+
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.btn {
+    display: inline-block;
+    margin-left: 10px;
+    padding: .9rem 1.5rem;
+    padding-left: 10px;
+    border-style: solid;
+    width: 8%;
+    color: #031425;
+    background: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+}
+header .title {
+    color: black;
+    font-size: 30px;
+}
+header .navbar a {
+    margin: 15px;
+    font-size: 20px;
+    color: black;
+}
+#heading_title {
+    font-size: 20px;
+    color: black;
+    display: none;
+}
+.home {
+    min-height: 710px;
+    padding-top: 70px;
+    background: url(../image/white-bricks-wall-texture.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.home .wall {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.home .wall .content {
+    flex: 1 1 42rem;
+}
+
+.home .wall .image {
+    flex: 1 1 42rem;
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.home .wall .image img {
+    height: 35rem;
+}
+
+
+.home .wall .content h3 {
+    font-size: 6.5rem;
+    color: #031425;
+    text-transform: uppercase;
+}
+.about{
+    min-height: 710px;
+    padding-top: 70px;
+    background: url(../image/white-bricks-wall-texture.jpg) no-repeat;
+}
+
+
+.about .heading h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',;
+}
+.about .row .content li{
+    font-size: large;
+}
+.about .row .content p{
+    color : black;
+    font-size: 30px;
+}
+
+.about .row .content .colaud {
+    float: left;
+    width: 50%;
+    height: 300px; 
+  }
+  .about .row .content  .rowvid{
+    content: "";
+    display: table;
+    clear: both;
+  }
+.menu {
+    min-height: 710px;
+    padding-top: 70px;
+    background: url(../image/white-bricks-wall-texture.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.menu .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.menu .box-container .box {
+    flex: 10 10 10px;
+    padding: 20px;
+    border: solid;
+    border-color: #031425;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+.menu .box-container .box img {
+    height: 8rem;
+    margin-left: -6rem;
+}
+
+.menu .box-container .box details summary {
+    font-size: 20px;
+    color: black;
+}
+.menu .box-container .box details p {
+    font-size: 18px;
+    color: black;
+    line-height: 40px;
+    padding: 10px;
+}
+.book {
+    min-height: 710px;
+    padding-top: 70px;
+    background: url(../image/white-bricks-wall-texture.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.book form {
+    margin: auto auto auto auto;
+    padding: 40px;
+    border: solid;
+}
+
+.book form .box {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    background: none;
+    text-transform: none;
+    color: black;
+    border: solid;
+    margin: 9px;
+}
+
+.book form textarea {
+    height: 120px;
+}
+
+footer .footer_box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2px;
+}
+
+footer .footer_box .footer_box_details h3 {
+    padding: 5px;
+    padding-left: 8px;
+    font-size: 23px;
+    color: black;
+    text-transform: lowercase;
+}
+
+footer .footer_box .footer_box_details a {
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+    text-transform: lowercase;
+}
